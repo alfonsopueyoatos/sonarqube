@@ -3,7 +3,7 @@ general:
   cloudProvider: ""
   clusterName: ""
   environment: ""
-  appName: ""
+  appName: "app-sonarqube"
   owner: ""
   appRegistry: ""
   internalDomain: ""
