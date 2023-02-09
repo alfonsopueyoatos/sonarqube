@@ -1,4 +1,5 @@
 sonarqube:
   postgresql:
     existingSecret: app-sonarqube-postgresql
-  monitoringPasscodeSecretName: blablabla
+  monitoringPasscodeSecretName: app-sonarqube-sonarqube-monitoring-passcode
+  monitoringPasscodeSecretKey: SONAR_WEB_SYSTEMPASSCODE
