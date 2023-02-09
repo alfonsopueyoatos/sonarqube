@@ -1,7 +1,4 @@
 {{ $name := .Values.general.appName }}
-{{ $owner := .Values.general.owner }}
-{{ $registry := .Values.general.appRegistry }}
-{{ $image := .Values.app.image }}
 {{ $domain := .Values.general.internalDomain }}
 apiVersion: networking.k8s.io/v1
 kind: Ingress
