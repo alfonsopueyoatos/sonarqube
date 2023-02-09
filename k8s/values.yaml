@@ -17,7 +17,9 @@ sonarqube:
   account:
     adminPasswordSecretName: app-sonarqube-admin-password
   sonarProperties: 
-    sonar.log.level: TRACE
+    sonar.log.level: INFO
+  adminJobAnnotations:
+    linkerd.io/inject: disabled
 ingress:
   host: "sonarq"
   path: "/"
