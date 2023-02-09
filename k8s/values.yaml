@@ -4,3 +4,6 @@ sonarqube:
   monitoringPasscode: false
   monitoringPasscodeSecretName: app-sonarqube-sonarqube-monitoring-passcode
   monitoringPasscodeSecretKey: SONAR_WEB_SYSTEMPASSCODE
+ingress:
+  host: "sonarq"
+  path: "/"
