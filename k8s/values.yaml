@@ -16,6 +16,8 @@ sonarqube:
   monitoringPasscodeSecretKey: SONAR_WEB_SYSTEMPASSCODE
   account:
     adminPasswordSecretName: app-sonarqube-admin-password
+  sonarProperties: 
+    sonar.log.level.web: TRACE
 ingress:
   host: "sonarq"
   path: "/"
