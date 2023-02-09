@@ -13,13 +13,9 @@ sonarqube:
     existingSecret: app-sonarqube-postgresql
   monitoringPasscode: false
   monitoringPasscodeSecretName: app-sonarqube-sonarqube-monitoring-passcode
-  monitoringPasscodeSecretKey: SONAR_WEB_SYSTEMPASSCODE
-  account:
-    adminPasswordSecretName: app-sonarqube-admin-password
+  monitoringPasscodeSecretKey: SONAR_WEB_SYSTEMPASSCODE  
   sonarProperties: 
     sonar.log.level: INFO
-  adminJobAnnotations:
-    linkerd.io/inject: disabled
 ingress:
   host: "sonarq"
   path: "/"
