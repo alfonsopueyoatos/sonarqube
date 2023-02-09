@@ -17,3 +17,5 @@ sonarqube:
 ingress:
   host: "sonarq"
   path: "/"
+account:
+  adminPasswordSecretName: app-sonarqube-admin-password
