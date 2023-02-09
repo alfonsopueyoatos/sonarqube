@@ -1,0 +1,10 @@
+apiVersion: v2
+
+name: app-sonarqube
+description: Deploy sonarqube chart
+version: 1.0.0
+
+dependencies:
+- name: sonarqube
+  version: "8.0.0"
+  repository: "https://SonarSource.github.io/helm-chart-sonarqube"
